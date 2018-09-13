@@ -1,0 +1,29 @@
+* How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Well actually I did not use diff but used fc on the windows command prompt. But that's probably besides the point. fc gave out small chunks of the actual content, chunks that had differences for sure, that helped me to focus on smaller parts of the code rather than go through the two files in their entirety. That saved a lot of time and effort.
+
+* How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+It would be helpful to easily determine what change caused the program to behave in a certain way. Also be helpful to take a different approach to solving a problem or implementing a feature by easily rolling back to the previous version since it would be readily available.
+
+* What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Manual commits let me save versions that logically make sense thus avoiding versions that are incomplete and even not compilable. Manual commits are prone to user errors like not committing too often.
+
+* Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Version control systems meant for program development allow saving multiple files in one commit because of the nature of the changes in a program development environment. Such changes might span multiple files and may be interrelated. Other systems like google docs are meant for work that is likely contained in a single file or if across multiple files, may not be interrelated. Hence such systems do not offer this facility.
+
+* How can you use the commands git log and git diff to view the history of files?
+
+git log prints a chronological log of the commits made to the repository starting with the most RECENT change first. Among other information, it mainly provides the commit ID, author, date and the commit message. Type git log to get the log.
+
+git diff prints the difference between two commits. White lines are not the ones that have not been changed, red ones have been deleted and green ones have been added.
+
+* How might using version control make you more confident to make changes that could break something?
+
+With version control, there's always a very convenient way to get things back to how they were before they broke apart. Also a way to see exactly what changes caused the problem.
+
+* Now that you have your workspace set up, what do you want to try using Git for?
+
+For one of my current projects that frequently requires implementation of new features.
