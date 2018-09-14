@@ -16,4 +16,8 @@ Whene there's a need to try out a new more efficient way of doing something that
 
 * How do the diagrams help you visualize the branch structure?
 
-Well, they just do. 
+Well, they just do.
+
+* What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+A third commit is created after merging the files from the two branches. THe last checked out branch is now the tip of the merged branch. It is represented cause it has two parents, the two branches. A git log shows commits from both the branches in chronological order.
