@@ -13,3 +13,7 @@ By staging (and hence committing) only those files that contribute to the logica
 * What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 Whene there's a need to try out a new more efficient way of doing something that has already been implemented. Or when implementing an altogether new feature. Branches would allow us to retain the existing code-base for maybe further development or for implementation of other features by other people.
+
+* How do the diagrams help you visualize the branch structure?
+
+Well, they just do. 
