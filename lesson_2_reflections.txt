@@ -24,4 +24,4 @@ A third commit is created after merging the files from the two branches. THe las
 
 * What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 
-Automatic will do when changes are unrelated are in different parts of the code. Merging changes in the same part is likely to create conflicts which then require manual merging. So... Wait, do we have an option to merge automatically/manually? >:-|
+Automatic will do when changes are unrelated are in different parts of the code. Automatic merging changes in the same part is likely to create conflicts. Hence manual merging is required in such cases.
