@@ -3,3 +3,6 @@ When I'm working with someone else as well. Or when I need to work on different 
 
 * Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 In case the remote is a collaborative project, I might not want to subscribe to the revisions on that project but rather would like to develop it in another direction. Or in case two of us are working on implementing the same feature, but in different ways, an automatic update might mess up the codebase.
+
+* Describe the differences between forks, clones, and branches. When would you use one instead of another?
+A fork is a clone of a GitHub repository that resides on Github servers in the account of the person that forked the repository. A clone is a copy of a Git repository and could exist on GitHub servers or on local machines. A branch is a label on a commit on a local repository. A commit would go into the branch that is currently checked out. In case a new branch has been created, all further commits go into the new branch whereas the original development can continue on the master branch that would still be on the commit on which the branch was created.
