@@ -12,3 +12,6 @@ It would help to keep track of changes in the remote repository made by collabor
 
 * How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 Sharing the codebase back and forth with special lines to mark changes. Would be harder to maintain the integrity of the original code unless copies are made frequently. Would be harder for more than 2 people to collaborate.
+
+* When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+When I'm not sure if the changes would ultimately work. Or when I'd first like to get the opinion of collaborators on the changes that I've made.
